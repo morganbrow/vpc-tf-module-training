@@ -4,6 +4,11 @@ variable "project-name" {
   
 }
 
+variable "region_name" {
+  type = string
+  decription = "The name of the region"
+}
+
 variable "vpc_cidr" {
   type = string
   decription = "The VPC CIDR"
